@@ -16,11 +16,13 @@ https://developer.mozilla.org/en-US/docs/Web/API/Selection/removeRange
 https://zhidao.baidu.com/question/266300125371439005.html?qbl=relate_question_0&word=%C8%E7%BA%CE%B5%C3%D6%AA%D3%C3%BB%A7%CA%C7%CA%D6%BB%FA%B6%CB%BB%B9%CA%C7pc%B6%CB%B7%C3%CE%CA%CD%F8%D5%BE
 ### //linux命令压缩和解压缩文件
 ### 解压：
+<blockquote>
 tar –xvf file.tar 解压 tar包
 tar -zxvf file.tar.gz 解压tar.gz
 tar -xjvf file.tar.bz2 解压 tar.bz2
 tar –xZvf file.tar.Z 解压tar.Z
 tar -xvfj archive.tar.bz2 解压一个bzip2格式的压缩包
+</blockquote>
 ### 压缩：
 tar -zcvf 压缩文件名.tar.gz 被压缩文件名 可先切换到当前目录下。压缩文件名和被压缩文件名都可加入路径。
 tar -cvfz archive.tar.gz dir1 创建一个gzip格式的压缩包
