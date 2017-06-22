@@ -1,7 +1,9 @@
 # someTips
-## https://gitter.im/  聊天室  vue-github
+### 聊天室
+https://gitter.im/ vue-github
 ## this is an linked about some affairs
-## 光标的相关事件: https://developer.mozilla.org/en-US/docs/Web/API/Selection/removeRange
+## 光标的相关事件:
+https://developer.mozilla.org/en-US/docs/Web/API/Selection/removeRange
 ## 默认阻止换行事件发生: 
      $(this).bind('keydown',function(event){  
                     var e = event || window.event;  
@@ -10,8 +12,8 @@
                     }  
                 }); 
                 
-## 判断用户是手机端还是pc端接入网站 
-### https://zhidao.baidu.com/question/266300125371439005.html?qbl=relate_question_0&word=%C8%E7%BA%CE%B5%C3%D6%AA%D3%C3%BB%A7%CA%C7%CA%D6%BB%FA%B6%CB%BB%B9%CA%C7pc%B6%CB%B7%C3%CE%CA%CD%F8%D5%BE
+### 判断用户是手机端还是pc端接入网站 
+https://zhidao.baidu.com/question/266300125371439005.html?qbl=relate_question_0&word=%C8%E7%BA%CE%B5%C3%D6%AA%D3%C3%BB%A7%CA%C7%CA%D6%BB%FA%B6%CB%BB%B9%CA%C7pc%B6%CB%B7%C3%CE%CA%CD%F8%D5%BE
 ### //linux命令压缩和解压缩文件
 ### 解压：
 tar –xvf file.tar 解压 tar包
