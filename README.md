@@ -24,3 +24,11 @@ tar -xvfj archive.tar.bz2 解压一个bzip2格式的压缩包
 ### 压缩：
 tar -zcvf 压缩文件名.tar.gz 被压缩文件名 可先切换到当前目录下。压缩文件名和被压缩文件名都可加入路径。
 tar -cvfz archive.tar.gz dir1 创建一个gzip格式的压缩包
+### windows系统中端口被占用的解决方法：
+netstat -ano  (查看占用进程)
+tasklist|findstr "pid"  (查看占用程序)
+taskkill /f /t /im node.exe  （杀掉占用进程程序）
+
+### linux中端口被占用的解决方法:
+lsof -i:8080
+kill -9 pid
